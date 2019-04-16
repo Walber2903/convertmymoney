@@ -1,0 +1,19 @@
+{
+  "name": "convertmymoney",
+  "version": "1.0.0",
+  "description": "First project FullStackMaster that convert the value of the day in dollar to real.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "author": "Walber Araujo",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
+}
