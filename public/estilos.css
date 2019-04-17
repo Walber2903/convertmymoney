@@ -1,14 +1,17 @@
+html {
+    height: 100%;
+}
+
 body {
     text-align: center;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 0fr auto;
 }
 
 h1 img {
     width: 487;
     margin: 20px;
-}
-
-.valor {
-    margin-top: 99px;
 }
 
 input {
@@ -37,4 +40,14 @@ button {
     border: 1px solid #d8d8d8;
     font-size: 20px;
     margin: 12px;
+}
+
+.footer {
+    grid-row-start: auto;
+    grid-row-end: auto;
+    padding: 20px;
+}
+
+* {
+    box-sizing: border-box;
 }
