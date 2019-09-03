@@ -1,7 +1,8 @@
 <%- include('header') %>
-        <form method="GET" action="/cotacao">
+        <form method="GET" action="/cotacao" name="conversao">
                 <input name="cotacao" class="valor" placeholder="Cotação Dolar" value="<%= cotacao %>"><br/>
                 <input name="quantidade" placeholder="Quantidade de dolares"><br/>
                 <button>Converter!</button><br/>
         </form>
+        <link rel="stylesheet" href="./validation.js">
 <%- include('footer') %>
