@@ -14,7 +14,7 @@
     "ejs": "^2.7.1",
     "express": "^4.17.1",
     "jquery": "^3.4.1",
-    "jquery-validation": "^1.19.1"
+    "jquery-validation": "^1.19.5"
   },
   "devDependencies": {
     "jest": "^24.9.0"
